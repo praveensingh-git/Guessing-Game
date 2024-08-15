@@ -1,0 +1,65 @@
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.header h2 {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.wrong {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+#guess {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
